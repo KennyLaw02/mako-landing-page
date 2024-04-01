@@ -61,7 +61,7 @@ button {
     padding: 8px 24px;
     border-style: solid;
     border-color: #3882f6;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .second {
@@ -151,9 +151,7 @@ button {
 }
 
 .fourth button {
-    border-style: solid;
     border-color: #f9faf8;
-    border-radius: 12px;
 }
 
 ul {
