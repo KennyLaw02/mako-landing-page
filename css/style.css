@@ -11,7 +11,7 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; <!-- space-between -->
     align-items: center;
     width: 100%;
 }
@@ -48,10 +48,12 @@ body {
 
 .first h1 {
     color: #f9faf8;
+    margin-bottom: 8px;
 }
 
 .first p {
     color: #e5e7eb;
+    margin-top: 8px;
 }
 
 button {
@@ -126,14 +128,13 @@ button {
 
 .fourth {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 33%;
-    padding: 16px;
     flex: 1;
     flex-wrap: wrap;
     margin: 48px;
-    padding: 16px 48px;
+    padding: 16px 36px;
     background-color: #3882f6;
     border-style: solid;
     border-color: #3882f6;
